@@ -24,6 +24,43 @@ const questions = [{
 },
 {
     type: 'input',
+    message: 'Anyone or anything you would like to credit? ',
+    name: 'credits', 
+},
+{
+
+    type: 'list',
+    message: 'Which license does your project have? ',
+    name: 'license',  
+    choices: [
+    'Apache License 2.0', 
+    'GNU General Public License v3.0', 
+    'MIT License', 
+    'BSD 2-Clause Simplified License', 
+    'BSD 3-Clause New or Revised License',
+    'Boost Software License 1.0',
+    'Creative Commons Zero v1.0 Universal',
+    'Eclipse Public License 2.0',
+    'GNU Affero General Public License v3.0',
+    'GNU General Public License v2.0',
+    'GNU Lesser General Public License v2.1',
+    'Mozilla Public License 2.0',
+    'The Unilicense',
+    ],
+
+},
+{
+    type: 'input',
+    message: 'What badges would you like to share? ',
+    name: 'Badges', 
+},
+{
+    type: 'input',
+    message: 'Does your project have a lot of features? Please list them here: ',
+    name: 'Features', 
+},
+{
+    type: 'input',
     message: 'How can others contribute? ',
     name: 'contributions',  
 },
@@ -32,12 +69,6 @@ const questions = [{
     message: 'Here is how to test the project: ',
     name: 'tests',  
 },
-{
-    type: 'list',
-    message: 'Which license does your project have? ',
-    name: 'license',  
-    choices: ''
-}
 ];
 
 // TODO: Create a function to write README file
