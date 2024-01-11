@@ -47,6 +47,8 @@ function generateMarkdown(data) {
   Have questions?
 
   Find me on Github: <a href"https://github.com/${data.username}">${data.username}</a>
+
+  Email me at:${data.email}
   
   ## How to Contribute
   ${data.contributions}
