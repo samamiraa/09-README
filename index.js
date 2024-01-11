@@ -53,7 +53,7 @@ const questions = [{
 {
     type: 'input',
     message: 'Does your project have a lot of features? Please list them here: ',
-    name: 'Features', 
+    name: 'features', 
 },
 {
     type: 'input',

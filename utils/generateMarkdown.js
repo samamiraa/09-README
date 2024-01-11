@@ -22,20 +22,23 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Features](#Features)
+  - [Contributions](#Contributions)
+  - [Tests](#Tests)
   
-  ## Installation
+  ## ${data.installation}
   
-  ## Usage
+  ## ${data.usage}
   
-  ## Credits
+  ## ${data.credits}
   
-  ## License
+  ## ${data.license}
   
-  ## Features
+  ## ${data.features}
   
-  ## How to Contribute
+  ## ${data.contributions}
   
-  ## Tests
+  ## ${data.tests}
   
 `;
 }
