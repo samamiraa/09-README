@@ -14,7 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## ${data.description}
+  ## Description
+  ${data.description}
   
   ## Table of Contents
   
@@ -23,22 +24,35 @@ function generateMarkdown(data) {
   - [Credits](#credits)
   - [License](#license)
   - [Features](#Features)
+  - [Questions](#Questions)
   - [Contributions](#Contributions)
   - [Tests](#Tests)
   
-  ## ${data.installation}
+  ## Installation
+  ${data.installation}
   
-  ## ${data.usage}
+  ## Usage
+  ${data.usage}
   
-  ## ${data.credits}
+  ## Credits
+  ${data.credits}
   
-  ## ${data.license}
+  ## License
+  This application is covered under the ${data.license}.
   
-  ## ${data.features}
+  ## Features
+  ${data.features}
+
+  ## Questions
+  Have questions?
+
+  Find me on Github: <a href"https://github.com/${data.username}">${data.username}</a>
   
-  ## ${data.contributions}
+  ## How to Contribute
+  ${data.contributions}
   
-  ## ${data.tests}
+  ## Tests
+  ${data.tests}
   
 `;
 }
