@@ -34,6 +34,7 @@ const questions = [{
     message: 'Which license does your project have? ',
     name: 'license',  
     choices: [
+    'No License',
     'Apache License 2.0', 
     'GNU General Public License v3.0', 
     'MIT License', 
@@ -48,12 +49,6 @@ const questions = [{
     'Mozilla Public License 2.0',
     'The Unilicense',
     ],
-
-},
-{
-    type: 'input',
-    message: 'What badges would you like to share? ',
-    name: 'Badges', 
 },
 {
     type: 'input',
