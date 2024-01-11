@@ -14,6 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ![Static Badge](https://img.shields.io/badge/License-${data.license}-green)
+
   ## Description
   ${data.description}
   
@@ -38,6 +40,7 @@ function generateMarkdown(data) {
   ${data.credits}
   
   ## License
+  ![Static Badge](https://img.shields.io/badge/License-${data.license}-green)
   This application is covered under the ${data.license}.
   
   ## Features
