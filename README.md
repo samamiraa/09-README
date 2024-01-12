@@ -14,7 +14,7 @@ My motivation to complete this project was to make sure I do not fall too far be
 
 ## Installation
 
-NPM Install inquirer@8.2.4
+NPM Install inquirer@8.2.4<br>
 https://www.npmjs.com/package/inquirer/v/8.2.4
 
 ## Usage
@@ -28,6 +28,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 
 ## Credits
+
+I went through all the node class activities again, but thank you to my teachers assistant Daniel for clarifying a few things regarding this assignment.
 
 https://www.geeksforgeeks.org/node-js-fs-writefile-method/
 https://stackoverflow.com/questions/40046764/is-it-possible-to-have-a-comment-inside-a-es6-template-string#:~:text=Yes.&text=Note%20that%20you%20have%20to,anywhere%20outside%20of%20the%20comment.
@@ -55,4 +57,4 @@ N/A
 
 ## Tests
 
-Create your own README! Install the inquirer@8.2.4. In your terminal/git bash, run node index.js. Answer prompts & voila, a proffessional readme is created!
+Create your own README! Install the inquirer@8.2.4. In your terminal/git bash, run node index.js. Answer prompts & voila, a proffessional readme is created! See usage for screenshots & please refer to the video if it is still unclear!
