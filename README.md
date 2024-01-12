@@ -2,12 +2,8 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+My motivation to complete this project was to make sure I do not fall too far behind in class. I also wanted to revisit node.js since our lessons were before christmas break. I built this because this is my first project for the back end side of development. I am a hands on learner, so this helps me understand. I learned that things are not as complicated as they seem and you should never be afraid to ask for help.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Table of Contents 
 
