@@ -39,7 +39,7 @@ function generateMarkdown(data) {
 
   Find me on Github: <a href"https://github.com/${data.username}">${data.username}</a>
 
-  Email me at:${data.email}
+  Email me at: ${data.email}
   
   ## How to Contribute
   ${data.contributions}
