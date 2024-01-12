@@ -84,8 +84,9 @@ function writeToFile(data) {
         .prompt(questions)
         .then((data) => {
             const fileName = `${data.title.split(" ").join("")}README.md`;
+            const dataString = JSON.stringify(data);
 
-            fs.writeFile(fileName, data, (err) => { 
+            fs.writeFile(fileName, dataString, (err) => { 
             err ? console.log(err) : console.log("Success!")
                 
             return generateMarkdown;
