@@ -80,23 +80,21 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    inquirer
-        .prompt(questions)
-        .then((data) => {
-            const fileName = `${data.title.split(" ").join("")}README.md`;
-            const dataString = JSON.stringify(data);
+            const fileName = `${data.title.split(" ").join("")}.README.md`;
+            const dataString = generateMarkdown(data);
 
             fs.writeFile(fileName, dataString, (err) => { 
             err ? console.log(err) : console.log("Success!")
-                
-            return generateMarkdown;
             });
-        });
 };
 
 // TODO: Create a function to initialize app
 function init() {
-    writeToFile();
+    inquirer
+        .prompt(questions)
+        .then((data) => {
+            writeToFile(data);
+        });
 };
 
 // Function call to initialize app
