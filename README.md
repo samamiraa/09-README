@@ -21,6 +21,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Installation
 
 NPM Install inquirer@8.2.4
+https://www.npmjs.com/package/inquirer/v/8.2.4
 
 ## Usage
 
@@ -35,6 +36,10 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 https://www.geeksforgeeks.org/node-js-fs-writefile-method/
+https://stackoverflow.com/questions/40046764/is-it-possible-to-have-a-comment-inside-a-es6-template-string#:~:text=Yes.&text=Note%20that%20you%20have%20to,anywhere%20outside%20of%20the%20comment.
+https://github.com/styled-components/stylelint-processor-styled-components/issues/46
+https://www.w3schools.com/nodejs/nodejs_modules.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
 ## License
 

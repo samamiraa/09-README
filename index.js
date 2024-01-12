@@ -1,9 +1,11 @@
-// TODO: Include packages needed for this application
+// Includes inquirer npm pkg
 const inquirer = require("inquirer");
+// includes fs built in node pkg
 const fs = require('fs');
+// includes generateMarkdown.js file
 const generateMarkdown = require('./utils/generateMarkdown')
 
-// TODO: Create an array of questions for user input
+// array of questions for user input
 const questions = [{
     type: 'input',
     message: 'What is the title of your project?',
@@ -73,7 +75,7 @@ const questions = [{
 },
 ];
 
-// TODO: Create a function to write README file
+//function to write README file
 function writeToFile(data) {
             const fileName = `${data.title.split(" ").join("")}.README.md`;
             const dataString = generateMarkdown(data);
