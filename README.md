@@ -7,8 +7,6 @@ My motivation to complete this project was to make sure I do not fall too far be
 
 ## Table of Contents 
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -57,4 +55,4 @@ N/A
 
 ## Tests
 
-Create your own README!
+Create your own README! Install the inquirer@8.2.4. In your terminal/git bash, run node index.js. Answer prompts & voila, a proffessional readme is created!
