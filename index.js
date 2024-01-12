@@ -85,8 +85,11 @@ function writeToFile(data) {
         .then((data) => {
             const fileName = `${data.title.split(" ").join("")}README.md`;
 
-            fs.writeFile(fileName, JSON.stringify(generateMarkdown, null, "\t")), (err) =>
+            fs.writeFile(fileName, data, (err) => { 
             err ? console.log(err) : console.log("Success!")
+                
+            return generateMarkdown;
+            });
         });
 };
 

@@ -34,15 +34,11 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+https://www.geeksforgeeks.org/node-js-fs-writefile-method/
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+The MIT License is short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions.
 
 ![Static Badge](https://img.shields.io/badge/License-MIT-green)
 
