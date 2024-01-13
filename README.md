@@ -19,13 +19,49 @@ https://www.npmjs.com/package/inquirer/v/8.2.4
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+After installing the inquirer package, navigate to the folder in your terminal/git bash that the index.js file is in. In your terminal enter in "node index.js"<br>
+<br>
+<img width="1280" alt="terminal node index.js" src="./screenshots4readme/node index.js.png"><br>
+<br>
+The first prompt should appear asking what the title of the project is<br>
+<img width="1280" alt="title prompt" src="./screenshots4readme/titleprompt.png"><br>
+<br>
+After you enter in the title, the next prompt will ask you to enter in a brief summary<br>
+<img width="1280" alt="summary prompt" src="./screenshots4readme/summary prompt.png"><br>
+<br>
+After you enter in the summary, the next prompt will ask you to enter in any installation instructions<br>
+<img width="1280" alt="installation prompt" src="./screenshots4readme/installation prompt.png"><br>
+<br>
+After you enter in the installation instructionse, the next prompt will ask you to enter in any usage information<br>
+<img width="1280" alt="usage prompt" src="./screenshots4readme/usage prompt.png"><br>
+<br>
+After you enter in the usage information, the next prompt will ask you to enter in any credits<br>
+<img width="1280" alt="credits prompt" src="./screenshots4readme/credit prompt.png"><br>
+<br>
+After you enter in the credits, the next prompt will ask you to choose a license. You can toggle with the arrow keys and hit enter to select<br>
+<img width="1280" alt="license prompt" src="./screenshots4readme/license prompt.png"><br>
+<br>
+After you choose the license, the next prompt will ask you to enter in any features<br>
+<img width="1280" alt="features prompt" src="./screenshots4readme/features prompt.png"><br>
+<br>
+After you enter in the features, the next prompt will ask you to enter in any contributions<br>
+<img width="1280" alt="contributions prompt" src="./screenshots4readme/contributions prompt.png"><br>
+<br>
+After you enter in the contributions, the next prompt will ask you to enter in how to test the project<br>
+<img width="1280" alt="tests prompt" src="./screenshots4readme/test prompt.png"><br>
+<br>
+After you enter in the testing information, the next prompt will ask you to enter in your github username<br>
+<img width="1280" alt="github prompt" src="./screenshots4readme/github username prompt.png"><br>
+<br>
+After you enter in your github username, the next prompt will ask you to enter in your email<br>
+<img width="1280" alt="email prompt" src="./screenshots4readme/email prompt.png"><br>
+<br>
+After you enter in your email, the next prompt will either log 'Success!' indicating the readme was generated or it will give an error.<br>
+<img width="1280" alt="success prompt" src="./screenshots4readme/success.png"><br>
+<br>
+Next you will see that in your folder a readme is generated with the information you entered in the appropriate spots.<br>
+<img width="1280" alt="readme file generated" src="./screenshots4readme/sample readme.png"><br>
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
